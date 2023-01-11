@@ -1,0 +1,17 @@
+
+// @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+
+$body-font-family: 'Tangerine';
+
+$typoOptions: display-4, display-3, display-2, display-1, headline, title, subtitle-1, subtitle-2, body-1, body-2, caption, overline, text-h5;
+#app {
+  font-family: $body-font-family, sans-serif !important;
+  @each $typoOption in $typoOptions {
+    .#{$typoOption} {
+      font-family: $body-font-family, sans-serif !important;
+    }
+  }
+}

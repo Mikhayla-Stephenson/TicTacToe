@@ -1,0 +1,28 @@
+{
+  "name": "testTwo",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "7.0.96",
+    "roboto-fontface": "*",
+    "vue": "^3.2.38",
+    "vuetify": "^3.0.0",
+    "vuex": "^4.0.2",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "prettier": "2.8.1",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "vite": "^3.1.9",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12"
+  }
+}
